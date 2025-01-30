@@ -15,7 +15,8 @@ const mainContainer = css`
 
 const content = css`
   flex: 1 1 auto;
-  padding: ${baseline(3)};
+  padding: 0;
+  padding-top: ${baseline(3)};
   height: 100%;
   box-sizing: border-box;
   overflow-y: auto;

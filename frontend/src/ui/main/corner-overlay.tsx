@@ -10,7 +10,7 @@ const cornerOverlay = css`
   position: absolute;
   z-index: ${zCornerOverlay};
   transform: translate3d(0, 0, 0);
-  bottom: 0;
+  bottom: 100px;
   right: 0;
 `
 
@@ -43,12 +43,12 @@ export function CornerOverlay() {
           hoverable
           onClick={() => updateSettings({ lightMode: !lightMode })}
         />
-        <Icon
+        {/* <Icon
           className={cornerIcon}
           icon={iconFullscreen}
           hoverable
           onClick={toggleFullScreen}
-        />
+        /> */}
       </div>
     </>
   )

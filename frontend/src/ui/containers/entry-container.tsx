@@ -8,6 +8,7 @@ export const container = css`
   display: flex;
   flex-wrap: wrap;
   padding-right: ${baseline(8)};
+  width: 95%;
 `
 
 export const containerNoWrap = css`
