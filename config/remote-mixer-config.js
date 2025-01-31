@@ -4,9 +4,9 @@
 // @ts-check
 /** @type {Partial<import('../backend/src/services/config').RemoteMixerConfiguration>} */
 const userConfig = {
-  // httpPort: 8080,
-  // logLevel: 'debug',
-  // device: 'dummy'
+  httpPort: 8000,
+  logLevel: 'debug',
+  device: 'yamaha-01v96'
 }
 
 module.exports = userConfig
